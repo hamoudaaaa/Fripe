@@ -1,0 +1,17 @@
+.ahmed {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+/* .Landpage {
+    margin: 6% 10%;
+}
+.ahmed > {
+    margin: 30px;
+} */
+.ahmed * {
+    margin: 20px;
+    padding: 0, 10px;
+    margin: 2%;
+}

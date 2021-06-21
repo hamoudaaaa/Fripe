@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+/* * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f1f7;
+
+} */
+/* * {
+   
+} */
+/* * li,
+a,
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(231, 31, 31);
+    text-decoration: none;
+} */
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    align-items: baseline;
+}
+li {
+    display: inline-block;
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(000, 000, 000, 0.1),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.5);
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    /* display: flex;
+  
+    background-color: #29d878;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%; */
+}
+header > h3 {
+    font-size: 90px;
+}
+/* .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+ /* .menu li {
+    display: inline-block;
+  
+
+} */
+/* .menu li a {
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    padding: 0px 5px;
+} */
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(248, 253, 243);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    color: rgb(25, 0, 255);
+}
+.fa-shopping-cart {
+    color: black;
+    padding: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 200%;
+}
+nav {
+    display: flex;
+    width: 30%;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 1% 1%;
+}
